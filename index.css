@@ -1,0 +1,218 @@
+*{
+    /* border: 1px solid red; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black; 
+}
+
+/* Navbar */
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; 
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: 3vw;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+a:hover{
+    color:rgb(136, 2, 136)
+}
+
+/* Main Landing */
+
+.bgcont{
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 1031px
+}
+
+
+.welcome{
+    margin-top: 25%;
+    color: whitesmoke;
+    margin-bottom: 40%;
+    
+}
+
+.welcenter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcrunch{
+    font-size: 4vw;
+    
+}
+
+.realgym{
+    font-size: 1.5vw;
+}
+
+.welcomeline{
+    color: whitesmoke;
+    width:70%
+}
+
+/* Event Section */
+.eventbgimg{
+    width:100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.eventhead{
+    display: flex;
+    justify-content: center;
+}
+
+.eventtit{
+    font-size: 2vw;
+    color:whitesmoke;
+    background: rgba(0, 0, 0, .5);
+    margin-top: 4%;
+}
+.event-container{
+    color: whitesmoke;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+} 
+
+/* Event Calendar */
+
+.calinfo{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+td, th{
+    border: 1px solid gainsboro;
+    text-align: left;
+    padding: 8px;
+    width: 12.5%;
+}
+
+th{
+    font-weight: 900; 
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.cal{
+    width: 70%
+}
+
+/* Footer - Landing */
+
+footer{
+    margin-top: 8%;
+}
+.tiny{
+    font-size: x-small;}
+
+    .bottom{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    bottom: 0%
+}
+
+.map{
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.footimg{
+    max-height: 150px;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em
+}
+
+.footshows{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em
+}
+
+.foothead{
+    font-size: 2vw;
+}

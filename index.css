@@ -30,6 +30,13 @@ nav{
     height: 60px
 }
 
+@media screen and (max-width: 700px) {
+    .bgcont, .nav-container { 
+    display: flex;    
+    flex-direction: column;
+    }
+}
+
 .nav-container{
     display: flex;
     flex-direction: row;
@@ -73,9 +80,10 @@ a:hover{
 
 .bgcont{
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    max-height: 1031px
 }
+
 
 
 .welcome{

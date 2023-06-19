@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/333b6539d3.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>About</title>
 </head>
 <body>
     <!-- Header -->
@@ -19,34 +20,34 @@
 </section>
 
 
-    <!-- Navbar -->
-    <nav>
-        <div class="nav-container aboutnav">
-            <div class="navbar-list">
-                <ul>
-                    <li class="nav-item">
-                        <a href="landing.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#eventtop" class="nav-link">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="sign-in.html" class="nav-link">Sign in</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<!-- Navbar -->
+<nav>
+    <div class="nav-container aboutnav">
+        <div class="aboutnavlist">
+            <ul>
+                <li class="aboutnavitem">
+                    <a href="landing.html" class="nav-link">Home</a>
+                </li>
+                <li class="aboutnavitem">
+                    <a href="#eventtop" class="nav-link">Events</a>
+                </li>
+                <li class="aboutnavitem">
+                    <a href="sign-in.html" class="nav-link">Sign in</a>
+                </li>
+                <li class="aboutnavitem">
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>     
+       </div>
+    </div>
+</nav>
 
 <!-- Events Info -->
 
-<section class="eventtiles">
+<section class="eventtiles" id="eventtop">
 
     <!-- Panel 1 -->
-    <div class="event-info-container">
+    <div class="event-info-container" id="#KingofthePlates">
         <div class="event-info">
             <div class="imagecont">
                 <img src="event pics\king of the plates.webp" alt="weightlifting bar and plates" class="eventimg">
@@ -62,7 +63,7 @@
             <div class="regbuttoncont">
                 <div class="regbutton">
                     <button class="register">
-                        <a href="#">Register</a>
+                        <a href="sign-in.html">Register</a>
                     </button>
                 </div>
             </div>    
@@ -70,7 +71,7 @@
     </div>
     <hr class="panelhr">
      <!-- Panel 2 -->
-     <div class="event-info-container">
+     <div class="event-info-container" id="WomensWorkout">
         <div class="event-info">
             <div class="imagecont">
                 <img src="event pics/womans' workout.avif" alt="Woman doing a shoulder squat" class="eventimg">
@@ -85,7 +86,7 @@
             <div class="regbuttoncont">
                 <div class="regbutton">
                     <button class="register">
-                        <a href="#">Register</a>
+                        <a href="sign-in.html">Register</a>
                     </button>
                 </div>
             </div>    
@@ -93,7 +94,7 @@
     </div>
     <hr class="panelhr">
     <!-- Panel 3 -->
-    <div class="event-info-container">
+    <div class="event-info-container" id="BodybuilderPro">
         <div class="event-info">
             <div class="imagecont">
                 <img src="event pics/Bodybuilder Seminar.avif" alt="bodybuilder male flexing" class="eventimg">
@@ -109,7 +110,7 @@
             <div class="regbuttoncont">
                 <div class="regbutton">
                     <button class="register">
-                        <a href="#">Register</a>
+                        <a href="sign-in.html">Register</a>
                     </button>
                 </div>
             </div>    
@@ -117,7 +118,7 @@
     </div>
     <hr class="panelhr">
     <!-- Panel 4 -->
-    <div class="event-info-container">
+    <div class="event-info-container" id="ThirstyThursday">
         <div class="event-info">
             <div class="imagecont">
                 <img src="event pics/Thirsty Thurs.avif" alt="man drinking protein shake in the gym" class="eventimg">
@@ -132,7 +133,7 @@
             <div class="regbuttoncont">
                 <div class="regbutton">
                     <button class="register">
-                        <a href="#">Register</a>
+                        <a href="sign-in.html">Register</a>
                     </button>
                 </div>
             </div>    
@@ -140,7 +141,7 @@
     </div>
     <hr class="panelhr">
     <!-- Panel 5 -->
-    <div class="event-info-container">
+    <div class="event-info-container" id="MembersMeal">
         <div class="event-info">
             <div class="imagecont">
                 <img src="event pics/Protein meal.avif" alt="A healthy meal of rice and eggs with lean proteins" class="eventimg">
@@ -156,7 +157,7 @@
             <div class="regbuttoncont">
                 <div class="regbutton">
                     <button class="register">
-                        <a href="#">Register</a>
+                        <a href="sign-in.html">Register</a>
                     </button>
                 </div>
             </div>    
@@ -164,57 +165,121 @@
     </div>
     <hr class="panelhr">
 
+</section>
+
 
 <!-- Pro Grid -->
 
-
-
-    <footer>
-        <div class="bottom" id="contact">
-            <div class="map">
-                <img src="static/Foot.avif" alt="Townsville map" class="footimg">
+<section id="shop" class="shop">
+    <div class="wrap-container">
+        <div class="wrapper">
+            <div class="box">
+                <img src="Pros/Female 1.avif" alt="Female Fitness Professional Ayiyah Iiyengar" class="grid-image">
+                <a href="#"><h3 class="grid-text"><i class="fa-brands fa-instagram"></i>Ayiyah Iiyengar</h3></a>
             </div>
-        
-            <div class="footer-info">
-                <div class="foothead">Info</div>
-                <div class="location">
-                    <p class="tiny"><i class="fas fa-map-marker-alt"></i>77 County Rte 4 Keyport, NJ 07735</p>
-                </div>
-                <div class="email">
-                    <p class="tiny"><i class="far fa-envelope"></i>crunchgymjersey@gmail.com</p>
-                </div>
-                <div class="phone">
-                    <p class="tiny"><i class="fas fa-mobile-alt"></i>Call us: (732)855-4749</p>
-                </div>
+            <div class="box">
+                <img src="Pros/Male 2.avif" alt="Male Fitness Professional: Namor Chandry" class="grid-image">
+                <a href="#"><h3 class="grid-text"><i class="fa-brands fa-instagram"></i>Namor Chandry</h3></a>
             </div>
-            <div class="footshows">
-                <div class="foothead">Workout Info</div>
-                <div class="tips">
-                    <a href="https://www.bodybuilding.com/content/a-beginners-guide-to-workout-nutrition-before-during-and-after-training.html"><p class="tiny">Eating Right</p></a>
-                </div>
-                <div class="tips">
-                    <a href="https://www.verywellfit.com/intensity-fitness-term-1231217"><p class="tiny">Your Ideal Pace</p></a>
-                </div>
-                <div class="tips">
-                    <a href="https://www.bodybuilding.com/content/the-complete-guide-to-protein.html"><p class="tiny">Protein and Suppliments</p></a>
-                </div>
-                <div class="tips">
-                    <a href="about.html#pros"><p class="tiny">Talk to our Pros</p></a>
-                </div>
+            <div class="box">
+                <img src="Pros/Male 1.avif" alt="Male Fitness Professional: Paul Bunyan" class="grid-image">
+                <a href="#"><h3 class="grid-text"><i class="fa-brands fa-twitter"></i>Paul Bunyan</h3></a>
             </div>
-            <div class="socials">
-                <div class="foothead">Social</div>
-                <div class="media">
-                    <a href="#"><p class="tiny"><i class="fa-brands fa-facebook"></i>Facebook</p></a>
-                </div>
-                <div class="media">
-                    <a href="#"><p class="tiny"><i class="fa-brands fa-instagram"></i>Instagram</p></a>
-                </div>
-                <div class="media">
-                    <a href="#"><p class="tiny"><i class="fa-brands fa-twitter"></i>Twitter</p></a>
-                </div>
+            <div class="box">
+                <img src="Pros/Female 2.avif" alt="Female Fitness Professional Porsha Gendry" class="grid-image">
+                <a href="#"><h3 class="grid-text"><i class="fa-brands fa-instagram"></i>Porsha Gendry</h3></a>
+            </div>
+            <div class="box">
+                <img src="Pros/Male 3.avif" alt="Male Fitness Professional: Sam Samson Samuelson" class="grid-image">
+                <a href="#"><h3 class="grid-text"><i class="fa-brands fa-twitter"></i>Sam Samson Samuelson</h3></a>
+            </div>
+            <div class="box">
+                <img src="Pros/Male 4.avif" alt="Male Fitness Professional: Dig Bigsby" class="grid-image">
+                <a href="#"><h3 class="grid-text"><i class="fa-brands fa-instagram"></i>Dig Bigsby</h3></a>
+            </div>
         </div>
-    </footer>
+    </div>
+</section>
+
+<!-- Contact the Pros -->
+<section class="form" id="contact">
+    <div class="formtitle">
+        <h1 class="contactpro">Contact a Pro</h1>
+    </div>
+    <div class="formcont">
+        <form>
+            <label>Name:</label><br>
+            <input type="text" id="name" class="inputinfo" placeholder="Name..."><br> 
+            <label>Email:</label><br>
+            <input type="text" id="email" class="inputinfo" placeholder="Email..."><br>
+            <label>Phone Number:</label><br>
+            <input type="text" id="phone" class="inputinfo" placeholder="Phone Number..."><br>
+            <label>Message:</label><br>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea><br>
+            <label>Pro To Contact:</label><br>
+            <input type="text" id="phone" class="inputinfo" placeholder="Pro's Name"><br>
+            <p>How would you like us to respond?</p>
+            <div class="response">
+                <input type="radio" id="emailradio"  class="radios" value="Email">
+                <label for="email">Email</label>
+            </div>
+            <div class="response">
+                <input type="radio" id="phoneradio" lass="radios" value="Phone">
+                <label for="phone">Phone</label><br><br>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer>
+    <div class="bottom" id="contact">
+        <div class="map">
+            <img src="static/Foot.avif" alt="Townsville map" class="footimg">
+        </div>
+        
+        <div class="footer-info">
+            <div class="foothead">Info</div>
+            <div class="location">
+                <p class="tiny"><i class="fas fa-map-marker-alt"></i>77 County Rte 4 Keyport, NJ 07735</p>
+            </div>
+            <div class="email">
+                <p class="tiny"><i class="far fa-envelope"></i>crunchgymjersey@gmail.com</p>
+            </div>
+            <div class="phone">
+                <p class="tiny"><i class="fas fa-mobile-alt"></i>Call us: (732)855-4749</p>
+            </div>
+        </div>
+        <div class="footshows">
+            <div class="foothead">Workout Info</div>
+            <div class="tips">
+                <a href="https://www.bodybuilding.com/content/a-beginners-guide-to-workout-nutrition-before-during-and-after-training.html"><p class="tiny">Eating Right</p></a>
+            </div>
+            <div class="tips">
+                <a href="https://www.verywellfit.com/intensity-fitness-term-1231217"><p class="tiny">Your Ideal Pace</p></a>
+            </div>
+            <div class="tips">
+                <a href="https://www.bodybuilding.com/content/the-complete-guide-to-protein.html"><p class="tiny">Protein and Suppliments</p></a>
+            </div>
+            <div class="tips">
+                <a href="about.html#pros"><p class="tiny">Talk to our Pros</p></a>
+            </div>
+        </div>
+        <div class="socials">
+            <div class="foothead">Social</div>
+            <div class="media">
+                <a href="#"><p class="tiny"><i class="fa-brands fa-facebook"></i>Facebook</p></a>
+            </div>
+            <div class="media">
+                <a href="#"><p class="tiny"><i class="fa-brands fa-instagram"></i>Instagram</p></a>
+            </div>
+            <div class="media">
+                <a href="#"><p class="tiny"><i class="fa-brands fa-twitter"></i>Twitter</p></a>
+            </div>
+    </div>
+</footer>
 
 </body>
 </html>
